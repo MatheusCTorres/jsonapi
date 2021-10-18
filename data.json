@@ -6,17 +6,17 @@
 		"tipo": "licenciatura em engenharia informatica",
 		"ano1": {
 			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
+				"materias": ["Arquitetura de Computadores", "Introdução à Ciência dos Computadore", "Programação I", "Redes e Comunicações I", "Matemática I", "Tecnologias da Internet I"],
+				"notas": [10, 11, 12, 13, 14, 18]
 			},
 			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [16, 17, 18, 19, 20]
+				"materias": ["História da Ciência e das Técnicas", "Redes e Comunicações II", "Algoritmos e Estruturas de Dados", "Programação II", "Matemática II", "Estatística Descritiva"],
+				"notas": [16, 17, 18, 19, 20, 11]
 			}
 		},
 		"ano2": {
 			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
+				"materias": ["Administração de Redes I ", "Bases de Dados", "Programação III", "m4", "m5"],
 				"notas": [1, 2, 3, 4, 5]
 			},
 			"semestre2": {
