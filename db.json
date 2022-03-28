@@ -1,110 +1,234 @@
-[
-	{
-		"id": 123,
-		"nome": "aaa",
-		"image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
-		"tipo": "licenciatura em engenharia informatica",
-		"ano1": {
-			"semestre1": {
-				"materias": ["Arquitetura de Computadores", "Introdução à Ciência dos Computadore", "Programação I", "Redes e Comunicações I", "Matemática I", "Tecnologias da Internet I"],
-				"notas": [10, 11, 12, 13, 14, 18]
-			},
-			"semestre2": {
-				"materias": ["História da Ciência e das Técnicas", "Redes e Comunicações II", "Algoritmos e Estruturas de Dados", "Programação II", "Matemática II", "Estatística Descritiva"],
-				"notas": [16, 17, 18, 19, 20, 11]
-			}
-		},
-		"ano2": {
-			"semestre1": {
-				"materias": ["Administração de Redes I ", "Bases de Dados", "Programação III", "m4", "m5"],
-				"notas": [1, 2, 3, 4, 5]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [6, 7, 8, 9, 10]
-			}
-		},
-		"ano3": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		}
-	},
-	{
-		"id": 456,
-		"nome": "bbb",
-		"image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
-		"tipo": "licenciatura em engenharia informatica",
-		"ano1": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		},
-		"ano2": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		},
-		"ano3": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		}
-	},
-	{
-		"id": 789,
-		"nome": "ccc",
-		"image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
-		"tipo": "licenciatura em engenharia informatica",
-		"ano1": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		},
-		"ano2": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			}
-		},
-		"ano3": {
-			"semestre1": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 14]
-			},
-			"semestre2": {
-				"materias": ["m1", "m2", "m3", "m4", "m5"],
-				"notas": [10, 11, 12, 13, 18]
-			}
-		}
-	}
-]
+{
+  "estudantes": [
+    {
+      "id": 123,
+      "nome": "Carlos Ribeiro da Silva",
+      "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+      "tipo": "Licenciatura Engenharia Informática",
+      "ano1": {
+        "semestre1": {
+          "materias": [
+            "Arquitetura de Computadores",
+            "Introdução à Ciência dos Computadore",
+            "Programação I",
+            "Redes e Comunicações I",
+            "Matemática I",
+            "Tecnologias da Internet I"
+          ],
+          "notas": [10, 11, 12, 13, 14, 18]
+        },
+        "semestre2": {
+          "materias": [
+            "História da Ciência e das Técnicas",
+            "Redes e Comunicações II",
+            "Algoritmos e Estruturas de Dados",
+            "Programação II",
+            "Matemática II",
+            "Estatística Descritiva"
+          ],
+          "notas": [16, 17, 18, 19, 20, 11]
+        }
+      },
+      "ano2": {
+        "semestre1": {
+          "materias": [
+            "Administração de Redes I",
+            "Bases de Dados",
+            "Programação III",
+            "Sistemas Multimedia I",
+            "Tecnologia da Internet II",
+            "Teoria das probabilidade e Modelos de Simulação"
+          ],
+          "notas": [1, 2, 3, 4, 5]
+        },
+        "semestre2": {
+          "materias": [
+            "Administração de Redes II ",
+            "Ciência de Dados",
+            "Programação IV",
+            "Sistemas Multimédia II",
+            "Tecnologias da Internet III",
+            "Cálculo Financeiro "
+          ],
+
+          "notas": [6, 7, 8, 9, 10]
+        }
+      },
+      "ano3": {
+        "semestre1": {
+          "materias": [
+            "Direito da Informática",
+            "Engenharia de Software",
+            "Criptografia",
+            "Gestão Empresarial"
+          ],
+          "notas": [10, 11, 12, 13]
+        },
+        "semestre2": {
+          "materias": ["m1", "m2", "m3", "m4", "m5"],
+          "notas": [10, 11, 12, 13, 14]
+        }
+      },
+      "Anual": {
+        "opcao": "Estagio",
+        "notas": "15"
+      }
+    },
+    {
+      "id": 456,
+      "nome": "Ana Caroline Alves",
+      "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+      "tipo": "Licenciatura Engenharia Multimédia",
+      "ano1": {
+        "semestre1": {
+          "materias": [
+            "Arquitetura e Funcionamento dos Computadores",
+            "Multimédia Digital Interativa ",
+            "Programação de Computadores I",
+            "Estatística Descritiva",
+            "Matemática I",
+            "Web e Multimédia I"
+          ],
+          "notas": [10, 11, 12, 13, 14, 15]
+        },
+        "semestre2": {
+          "materias": [
+            "Web e Multimédia II",
+            "História da Ciência e das Técnicas",
+            "Técnicas de Animação Gráfica I",
+            "Design Gráfico",
+            "Matemática II",
+            "Geometria Analítica"
+          ],
+          "notas": [9, 16, 11, 10, 5, 20]
+        }
+      },
+      "ano2": {
+        "semestre1": {
+          "materias": [
+            "Técnicas de Animação Gráfica II",
+            "Bases de Dados",
+            "Programação de Computadores II",
+            "Desenvolvimento de Aplicações Web",
+            "Laboratório de Fotografia",
+            "Probabilidades e Estatística"
+          ],
+          "notas": [10, 11, 11, 12, 15, 18]
+        },
+        "semestre2": {
+          "materias": [
+            "Computação Gráfica",
+            "Criatividade e Ergonomia em Multimédia",
+            "Aplicações para Dispositivos Móveis",
+            "Tecnologias Multimédia para E-Learning",
+            "Laboratório de Vídeo",
+            "Laboratório de Som"
+          ],
+          "notas": [10, 10, 14, 12, 18, 8]
+        }
+      },
+      "ano3": {
+        "semestre1": {
+          "materias": [
+            "Direito da informática",
+            "Desktop Publishing",
+            "Jogos e Realidade Virtual",
+            "Gestão Empresarial"
+          ],
+          "notas": [10, 11, 12, 13]
+        },
+        "semestre2": {
+          "materias": [
+            "Cálculo Financeiro",
+            "Edições Multimédia Interativas",
+            "Gestão de Conteúdos On-Line",
+            "Computação em Nuvem"
+          ],
+          "notas": [11, 10, 10, 13]
+        }
+      },
+      "Anual": {
+        "opcao": "Relatório (Projeto académico)",
+        "notas": "12"
+      }
+    },
+    {
+      "id": 789,
+      "nome": "ccc",
+      "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+      "tipo": "Licenciatura Engenharia Multimédia",
+      "ano1": {
+        "semestre1": {
+          "materias": [
+            "Arquitetura e Funcionamento dos Computadores",
+            "Multimédia Digital Interativa ",
+            "Programação de Computadores I",
+            "Estatística Descritiva",
+            "Matemática I",
+            "Web e Multimédia I"
+          ],
+          "notas": [10, 11, 12, 13, 14, 15]
+        },
+        "semestre2": {
+          "materias": [
+            "Web e Multimédia II",
+            "História da Ciência e das Técnicas",
+            "Técnicas de Animação Gráfica I",
+            "Design Gráfico",
+            "Matemática II",
+            "Geometria Analítica"
+          ],
+          "notas": [9, 16, 11, 10, 5, 20]
+        }
+      },
+      "ano2": {
+        "semestre1": {
+          "materias": [
+            "Técnicas de Animação Gráfica II",
+            "Bases de Dados",
+            "Programação de Computadores II",
+            "Desenvolvimento de Aplicações Web",
+            "Laboratório de Fotografia",
+            "Probabilidades e Estatística"
+          ],
+          "notas": [10, 11, 11, 12, 15, 18]
+        },
+        "semestre2": {
+          "materias": [
+            "Computação Gráfica",
+            "Criatividade e Ergonomia em Multimédia",
+            "Aplicações para Dispositivos Móveis",
+            "Tecnologias Multimédia para E-Learning",
+            "Laboratório de Vídeo",
+            "Laboratório de Som"
+          ],
+          "notas": [10, 10, 14, 12, 18, 8]
+        }
+      },
+      "ano3": {
+        "semestre1": {
+          "materias": [
+            "Direito da informática",
+            "Desktop Publishing",
+            "Jogos e Realidade Virtual",
+            "Gestão Empresarial"
+          ],
+          "notas": [10, 11, 12, 13]
+        },
+        "semestre2": {
+          "materias": [
+            "Cálculo Financeiro",
+            "Edições Multimédia Interativas",
+            "Gestão de Conteúdos On-Line",
+            "Computação em Nuvem"
+          ],
+          "notas": [11, 10, 10, 13]
+        }
+      },
+      "Anual": {
+        "opcao": "Relatório (Projeto académico)",
+        "notas": "12"
+      }
+    }
+  ]
+}
