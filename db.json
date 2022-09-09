@@ -3,7 +3,7 @@
     {
       "id": 123,
       "nome": "Carlos Ribeiro da Silva",
-      "image": "img/person1.jpg",
+      "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
       "tipo": "Licenciatura Engenharia Informática",
       "ano1": {
         "semestre1": {
@@ -12,7 +12,7 @@
             "Introdução à Ciência dos Computadores",
             "Programação I",
             "Redes e Comunicações I",
-            "Matemát ica I",
+            "Matemática I",
             "Tecnologias da Internet I"
           ],
           "notas": [10, 11, 12, 13, 14, 18]
